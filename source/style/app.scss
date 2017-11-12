@@ -9,6 +9,13 @@ html {
   box-sizing: inherit;
   font-family: Roboto, sans-serif;
 }
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
 ul{
   list-style: none;
   margin: 0;
