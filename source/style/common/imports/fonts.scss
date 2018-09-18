@@ -1,4 +1,6 @@
 @font-face{
+  // или по класике подключаем в html по умолчанию так и сделано
+
  /* font-family: Bernier-Shade;
   src: local('Bernier-Regular'), проверим есть ли шрифт в системе
   url('/assets/fonts/bernier/shade/berniershade-regular.ttf'), если нет грузим
@@ -7,4 +9,6 @@
   url('/assets/fonts/bernier/shade/berniershade-regular.eot'),
   url('/assets/fonts/bernier/shade/berniershade-regular.otf');
   font-weight: normal;  */
+
+
 }
