@@ -1,6 +1,7 @@
 'use strict';
 
 $(document).ready(function () {
+  console.log('Your builder is ready!');
 
   //Greeting animation start just remove it
   setTimeout(function() {
