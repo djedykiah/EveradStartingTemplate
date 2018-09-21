@@ -49,12 +49,39 @@ a{
   font-size: inherit;
   font-weight: inherit;
   text-decoration: none;
+  &:visited, &:hover, &:active{
+    outline: none !important;
+    text-decoration: none !important;
+  }
 }
 
-a:active, a:visited{
-  outline: none;
-
+//для линии которые обычно рисуют дизайнеры
+.line{
+  border-top: 1px solid #E0E0E0;
+  display: block;
+  width: 100%;
+  position: relative;
+  &::before{
+    border: 1px solid #E0E0E0;
+    border-left: 0;
+    border-top: 0;
+    background-color: #fff;
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, -50%) rotateZ(45deg);
+  }
 }
+//для избавления от висячих предлогов
+.dib.dib.dib{
+  display: inline-block;
+  color: inherit;
+  font-size: inherit;
+}
+
 .wrapper{
   overflow: hidden;
 }
