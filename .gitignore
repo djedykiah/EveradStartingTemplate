@@ -22,7 +22,8 @@
 .project
 .settings
 .tmproj
-Thumbs.db
+Thumbs.db 
+.vscode
 
 # Folders to ignore
 .CVS
@@ -33,7 +34,14 @@ Thumbs.db
 bower_components
 dist
 build
+/**/_backstage
+/**/package-lock.json
+/**/Thumbs.db
+/**/*.DS_Store
 
 # Node.JS
 node_modules
-npm-debug.log
+npm-debug.log 
+
+
+
